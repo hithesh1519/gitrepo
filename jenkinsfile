@@ -1,6 +1,7 @@
 pipeline{
-agent { 
-       lable 'node1'
+agent {
+	label 'node1'
+}
         stages{
             stage('Build-System details'){
                 steps{
@@ -38,7 +39,7 @@ agent {
                 steps{
                     sh '''
                     echo "Process command"
-                    ps -ef | tail -11
+                    ps -ef | tail -10 
                     '''
                 }
             }
