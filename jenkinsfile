@@ -38,7 +38,7 @@ agent {
                 steps{
                     sh '''
                     echo "Process command"
-                    ps -ef | tail -10
+                    ps -ef | tail -11
                     '''
                 }
             }
