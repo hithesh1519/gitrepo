@@ -1,6 +1,7 @@
 pipeline{
 agent {
        lable ('node-1')
+}
         stages{
             stage('Build-System details'){
                 steps{
@@ -45,4 +46,3 @@ agent {
 
         }
     }
-}
